@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.2" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_2.xsd">
+	<persistence-unit name="bakery">
+		<class>com.example.demo.jpa.Dostavljac</class>
+		<class>com.example.demo.jpa.Pekara</class>
+		<class>com.example.demo.jpa.Vrsta</class>
+		<class>com.example.demo.jpa.Role</class>
+		<class>com.example.demo.jpa.PoruceniProizvod</class>
+		<class>com.example.demo.jpa.Porudzbina</class>
+		<class>com.example.demo.jpa.Proizvod</class>
+		<class>com.example.demo.jpa.User</class>
+	</persistence-unit>
+</persistence>
